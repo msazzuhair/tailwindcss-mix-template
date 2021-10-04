@@ -26,12 +26,12 @@ npm run watch
 
 ### One-Off Build
 
-To build for development environment (without purging classes), use this command:
+To build for development environment (without purging the classes and minifying the css result), use this command:
 ```
 npm run dev
 ```
 
-To build for production environment (with class purging), use this command:
+To build for production environment (with class purging and minifying), use this command:
 ```
 npm run prod
 ```
