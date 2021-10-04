@@ -16,6 +16,16 @@ You can customize the Tailwind CSS configuration inside the `tailwind.config.jss
 
 ## Building The CSS
 
+### Just-in-Time (JIT) Mode
+
+To run the watcher, run this command:
+
+```
+npm run watch
+```
+
+### One-Off Build
+
 To build for development environment (without purging classes), use this command:
 ```
 npm run dev
