@@ -1,15 +1,16 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
+  mode : 'jit',
+  purge : [
     './dist/*.html',
     './src/**/*.{js,vue}',
   ],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
+  darkMode : false, // or 'media' or 'class'
+  theme : {
+    extend : {},
   },
-  variants: {
-    extend: {},
+  variants : {
+    extend : {},
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins :
+      [ require('@tailwindcss/forms'), require('@tailwindcss/typography') ],
 }
