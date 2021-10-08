@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -11,7 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.postCss('src/css/app.css', 'dist/css', [
-        require("@tailwindcss/jit"),
-    	require("postcss-import"),
-    ]);
+mix.postCss("src/css/app.css", "dist/css", [
+  require("postcss-import"),
+  require("tailwindcss"),
+]);
