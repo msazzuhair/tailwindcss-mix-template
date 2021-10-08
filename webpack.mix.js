@@ -12,6 +12,6 @@ const mix = require('laravel-mix');
  */
 
 mix.postCss('src/css/app.css', 'dist/css', [
-        require("@tailwindcss/jit"),
-    	require("postcss-import"),
+        require("postcss-import"),
+        require("tailwindcss"),
     ]);
